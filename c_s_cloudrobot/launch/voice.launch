@@ -1,0 +1,8 @@
+<launch>
+  <!--cloud end-->
+  <node pkg="arcodelistener" type="checkoutserver" name="cloudserver" />
+  <!-- local end-->
+  <node pkg="xfei_asr" type="tts_subscribe_speak" name="speaker" output="screen" />
+  <node pkg="xfei_asr" type="iat_publish_speak" name="hearer" output="screen"/>
+  <node pkg="arcodelistener" type="voice_analyze" name="voice_analyzer" output="screen" />
+</launch>

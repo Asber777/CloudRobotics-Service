@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/asber/catkin_ws/src/pcl/io/tools/pcd_convert_NaN_nan.cpp
+cstring
+-
+fstream
+-
+iostream
+-
+limits
+-
+sstream
+-
+string
+-
+

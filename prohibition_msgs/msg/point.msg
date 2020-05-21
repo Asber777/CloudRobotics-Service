@@ -1,0 +1,2 @@
+float32 point1
+float32 point2
